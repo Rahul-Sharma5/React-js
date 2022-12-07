@@ -1,0 +1,126 @@
+.Title {
+  margin-left: 5%;
+  font-size: 20px;
+}
+.logotitle {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading-1 {
+  color: #72a1e5;
+  font-size: 60px;
+  padding-top: 30px;
+}
+.heading-2 {
+  color: #72a1e5;
+  font-size: 20px;
+}
+.container {
+  height: 220px;
+  border: 3px solid #72a1e5;
+  border-radius: 10px;
+  color: #72a1e5;
+  text-align: left;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5% 4% 4% 5%;
+}
+
+.postTitle {
+  color: #72a1e5;
+  /* font-size: 60px;
+  padding-top: 30px; */
+}
+.postDescription {
+  color: #72a1e5;
+  /* font-size: 20px; */
+}
+.PostContainer {
+  /* height: 220px; */
+  border: 3px solid #72a1e5;
+  border-radius: 10px;
+  color: #72a1e5;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 3% 2% 2% 3%;
+}
+.titlecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 200px;
+  background-color: #72a1e5;
+  height: 50px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+.DescriptionContainer{
+  border: 3px solid #72a1e5;
+  border-radius: 10px;
+  color: #72a1e5;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 3% 2% 2% 3%;
+
+}
+
+.Bodycontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DescriptionTitle{
+  color: #72a1e5;
+}
+
+.Description{
+  color: #72a1e5;
+}

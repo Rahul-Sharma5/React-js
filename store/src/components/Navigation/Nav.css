@@ -1,0 +1,8 @@
+a{
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.navbar-nav a:hover, .navbar-nav .active, .navbar-nav .active:focus, .navbar-nav li:hover>a {
+    color: #50d8af;
+}

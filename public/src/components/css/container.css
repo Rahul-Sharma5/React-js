@@ -1,0 +1,34 @@
+
+.container{
+    display: grid;
+    grid-column-gap: 50px;
+    padding:50px;
+    font-size: larger;
+   /* justify-content: center;*/
+    align-items: center;
+}
+.container>.mainblock{
+    border: 2px solid rgba(253, 140, 140, 0.074);
+    background-color: rgba(38, 192, 159, 0.381);
+    color:rgba(8, 101, 98, 0.951);
+    font-family: 'Poppins';
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    grid-row: 1;
+    grid-column-start: 1 ;
+    grid-column-end: 5;
+}
+
+
+.container>.wrapper{
+    text-align: center;
+    background-color: rgba(95, 212, 130, 0);
+    border-radius: 20px;
+    padding: 20px 15px;
+    grid-row: 2;
+}
+
+.banneroffer{
+    width: calc(100% - 3rem);
+}
